@@ -1,0 +1,39 @@
+.h2{
+   font-size: 50px;
+   animation: myAnimation 3s infinite;
+  
+}
+@keyframes myAnimation {
+   1.6% {
+     
+       margin-left: -10px;
+      color: white;
+      
+   } 
+   3.2% {
+   
+       margin-left: 10px;
+   }
+   
+   6.4% {
+   
+      margin-left: -5px;
+     
+   }
+   12.8% {
+     
+      margin-left: 5px;
+   }
+   25.6% {
+      margin-left: -2px;
+   }
+   51.2% {
+      
+      margin-left: 2px;
+   }
+   100% {
+      
+      margin-left: 0px;
+      color: aqua;
+   }
+}
